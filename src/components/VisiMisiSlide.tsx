@@ -4,11 +4,7 @@ import SlideHeader from "./SlideHeader";
 export default function VisiMisiSlide() {
   return (
     <div className="relative min-h-screen">
-      <SlideHeader
-        eyebrow={visiMisi.eyebrow}
-        title={visiMisi.title}
-        subtitle={visiMisi.subtitle}
-      />
+      <SlideHeader title={visiMisi.title} subtitle={visiMisi.subtitle} />
 
       <main className="relative z-10 mx-auto flex max-w-3xl flex-col gap-8 px-6 pb-24">
         <div className="rounded-2xl border border-border bg-surface p-8">

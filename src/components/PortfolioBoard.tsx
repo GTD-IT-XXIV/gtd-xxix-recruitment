@@ -32,7 +32,6 @@ export default function PortfolioBoard() {
   return (
     <div className="relative min-h-screen">
       <SlideHeader
-        eyebrow="GTD XXIX"
         title="Job Description"
         subtitle="Select a portfolio to view its full role details"
       />

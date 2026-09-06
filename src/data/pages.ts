@@ -1,5 +1,4 @@
 export const introduction = {
-  eyebrow: "GTD XXIX",
   title: "Introduction",
   subtitle: "",
   body: [
@@ -13,7 +12,6 @@ export const introduction = {
 };
 
 export const visiMisi = {
-  eyebrow: "GTD XXIX",
   title: "Visi & Misi",
   subtitle: "",
   visi: "Membangun GTD sebagai wadah kebersamaan dan pengembangan diri bagi freshmen serta komite pada masa kini yang berdampak terhadap keberlanjutan dan pertumbuhan komunitas PINTU di masa depan.",

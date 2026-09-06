@@ -5,11 +5,7 @@ import SlideHeader from "./SlideHeader";
 export default function IntroductionSlide() {
   return (
     <div className="relative min-h-screen">
-      <SlideHeader
-        eyebrow={introduction.eyebrow}
-        title={introduction.title}
-        subtitle={introduction.subtitle}
-      />
+      <SlideHeader title={introduction.title} subtitle={introduction.subtitle} />
 
       <main className="relative z-10 mx-auto flex max-w-3xl flex-col gap-6 px-6 pb-24">
         <div className="overflow-hidden rounded-2xl border border-border">
