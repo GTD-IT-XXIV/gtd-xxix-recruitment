@@ -8,7 +8,7 @@ export default function IntroductionSlide() {
       <SlideHeader title={introduction.title} subtitle={introduction.subtitle} />
 
       <main className="relative z-10 mx-auto flex max-w-3xl flex-col gap-6 px-6 pb-24">
-        <div className="overflow-hidden rounded-2xl border border-border">
+        <div className="mx-auto w-full max-w-xs overflow-hidden rounded-2xl border border-border sm:max-w-md">
           <Image
             src={introduction.image}
             alt=""

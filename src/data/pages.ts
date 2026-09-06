@@ -5,9 +5,9 @@ export const introduction = {
     "[Add your introduction to GTD XXIX here — what it is, who it's for, and why it matters.]",
     "[You can add a second paragraph here if needed.]",
   ],
-  image: "/images/tops.png",
+  image: "/images/tops29.png",
   imageWidth: 2398,
-  imageHeight: 1150,
+  imageHeight: 1000,
   imageCaption: "Kata Sambutan Presiden GTD XXIX",
 };
 
