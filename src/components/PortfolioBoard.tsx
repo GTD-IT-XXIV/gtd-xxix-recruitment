@@ -1,12 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { portfolios, type Portfolio } from "@/data/portfolios";
 import SlideHeader from "./SlideHeader";
 
 export default function PortfolioBoard() {
   const [selected, setSelected] = useState<Portfolio | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!selected) return;
@@ -54,8 +60,9 @@ export default function PortfolioBoard() {
         ))}
       </main>
 
-      <AnimatePresence>
-        {selected && (
+      {mounted && createPortal(
+        <AnimatePresence>
+          {selected && (
           <motion.div
             layoutId={`card-${selected.id}`}
             style={{ borderRadius: 0 }}
@@ -139,8 +146,10 @@ export default function PortfolioBoard() {
               </div>
             </motion.div>
           </motion.div>
-        )}
-      </AnimatePresence>
+          )}
+        </AnimatePresence>,
+        document.body
+      )}
     </div>
   );
 }
