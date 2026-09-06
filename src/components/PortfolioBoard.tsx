@@ -32,7 +32,7 @@ export default function PortfolioBoard() {
   return (
     <div className="relative min-h-screen">
       <SlideHeader
-        title="Job Description"
+        title="Main Committee Job Description"
         subtitle="Select a portfolio to view its full role details"
       />
 
