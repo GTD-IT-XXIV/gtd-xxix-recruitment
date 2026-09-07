@@ -54,7 +54,7 @@ export default function PageShell() {
 
         <a
           href={REGISTER_LINK}
-          className="mt-3 inline-block rounded-full border border-red-900/60 bg-gradient-to-b from-red-700 to-red-900 px-6 py-2 text-xs font-semibold tracking-[0.1em] text-white uppercase shadow-md shadow-red-950/40 transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:from-red-600 hover:to-red-800 hover:shadow-lg hover:shadow-red-800/60 sm:text-sm"
+          className="mt-3 mb-5 inline-block rounded-full border border-red-900/60 bg-gradient-to-b from-red-700 to-red-900 px-6 py-2 text-xs font-semibold tracking-[0.1em] text-white uppercase shadow-md shadow-red-950/40 transition-all duration-300 hover:-translate-y-0.5 hover:scale-105 hover:from-red-600 hover:to-red-800 hover:shadow-lg hover:shadow-red-800/60 sm:text-sm"
         >
           Register
         </a>

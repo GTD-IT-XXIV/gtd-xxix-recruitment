@@ -22,7 +22,7 @@ export default function VisiMisiSlide() {
           </p>
           <ul className="flex flex-col gap-3.5">
             {visiMisi.misi.map((point, i) => (
-              <li key={i} className="relative pl-5 text-sm font-light leading-relaxed text-foreground">
+              <li key={i} className="relative pl-5 text-base font-light leading-relaxed text-foreground">
                 <span className="absolute top-2 left-0 h-1.5 w-1.5 rounded-full bg-accent" />
                 {point}
               </li>
