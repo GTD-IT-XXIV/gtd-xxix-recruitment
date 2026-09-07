@@ -5,13 +5,7 @@ import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { portfolios, type Portfolio } from "@/data/portfolios";
 import SlideHeader from "./SlideHeader";
-
-function renderRichText(text: string) {
-  return text.split(/(<i>.*?<\/i>)/g).map((part, i) => {
-    const match = part.match(/^<i>(.*)<\/i>$/);
-    return match ? <i key={i}>{match[1]}</i> : part;
-  });
-}
+import { renderRichText } from "@/lib/richText";
 
 export default function PortfolioBoard() {
   const [selected, setSelected] = useState<Portfolio | null>(null);

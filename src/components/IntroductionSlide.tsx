@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { introduction } from "@/data/pages";
 import SlideHeader from "./SlideHeader";
+import { renderRichText } from "@/lib/richText";
 
 export default function IntroductionSlide() {
   return (
@@ -18,13 +19,13 @@ export default function IntroductionSlide() {
           />
         </div>
 
-        <h2 className="text-center font-serif text-xl font-semibold text-foreground sm:text-2xl">
+        <h2 className="text-center font-serif text-xl font-semibold text-accent sm:text-2xl">
           {introduction.imageCaption}
         </h2>
 
         {introduction.body.map((paragraph, i) => (
           <p key={i} className="text-base font-light leading-relaxed text-foreground">
-            {paragraph}
+            {renderRichText(paragraph)}
           </p>
         ))}
       </main>

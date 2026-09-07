@@ -1,5 +1,6 @@
 import { visiMisi } from "@/data/pages";
 import SlideHeader from "./SlideHeader";
+import { renderRichText } from "@/lib/richText";
 
 export default function VisiMisiSlide() {
   return (
@@ -12,7 +13,7 @@ export default function VisiMisiSlide() {
             Visi
           </p>
           <p className="text-base font-light leading-relaxed text-foreground">
-            {visiMisi.visi}
+            {renderRichText(visiMisi.visi)}
           </p>
         </div>
 
@@ -24,7 +25,7 @@ export default function VisiMisiSlide() {
             {visiMisi.misi.map((point, i) => (
               <li key={i} className="relative pl-5 text-base font-light leading-relaxed text-foreground">
                 <span className="absolute top-2 left-0 h-1.5 w-1.5 rounded-full bg-accent" />
-                {point}
+                {renderRichText(point)}
               </li>
             ))}
           </ul>
