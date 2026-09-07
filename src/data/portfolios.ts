@@ -25,16 +25,16 @@ export const portfolios: Portfolio[] = [
       "Mendukung penuh GTD XXIX melalui pengelolaan keuangan, acara penggalangan dana, acara penutupan GTD XXIX, dan proses pencarian sponsor.",
     responsibilities: [
       "Merencanakan skala prioritas keuangan untuk keseluruhan kegiatan GTD XXIX.",
-      "Bertanggung jawab atas proyeksi pengalokasian dana dan laporan keuangan untuk setiap kegiatan dan acara portfolio GTD XXIX.",
-      "Bertanggung jawab dalam mencari sponsorship yang mencakup menyusun proposal sponsorship dan menjadi narahubung sponsor untuk mendukung pendanaan GTD XXIX.",
+      "Bertanggung jawab atas proyeksi pengalokasian dana untuk setiap kegiatan dan acara portfolio GTD XXIX.",
+      "Bertanggung jawab dalam mencari <i>sponsorship</i> yang mencakup menyusun proposal <i>sponsorship</i> dan menjadi narahubung sponsor untuk mendukung pendanaan GTD XXIX.",
       "Merancang program penggalangan dana yang melibatkan warga PINTU maupun di luar warga PINTU.",
-      "Berkomunikasi dan berkolaborasi dengan pihak eksternal untuk melaksanakan program penggalangan dana (Canvassing) untuk mendukung seluruh acara GTD XXIX.",
-      "Membantu perencanaan dan pelaksanaan acara penutupan GTD XXIX (Awards Night).",
-      "Bertanggung jawab atas pengerahan dan pengelolaan sumber daya manusia (Sub-Committee) dalam setiap program penggalangan dan pengelolaan dana GTD XXIX.",
+      "Berkomunikasi dan berkolaborasi dengan pihak eksternal untuk melaksanakan program penggalangan dana <i>(Canvassing)</i> untuk mendukung seluruh acara GTD XXIX.",
+      "Membantu perencanaan dan pelaksanaan acara penutupan GTD XXIX <i>(Awards Night)</i>.",
+      "Bertanggung jawab atas pengerahan dan pengelolaan sumber daya manusia dalam setiap program penggalangan dan pengelolaan dana GTD XXIX.",
       "Bersama dengan anggota komite lainnya membuat GTD XXIX menjadi menyenangkan dan mempunyai dampak positif pada komunitas PINTU, sehingga dapat meningkatkan kebersamaan di kalangan mahasiswa baru pada khususnya, dan seluruh peserta GTD XXIX pada umumnya."
     ],
     requirements: [
-      "Melatih kemampuan perencanaan dan pengaturan keuangan.",
+      "Kemampuan perencanaan dan pengaturan keuangan.",
       "Belajar berkoordinasi dan bernegosiasi dengan pihak eksternal dalam pencarian sponsor.",
       "Belajar mengorganisir acara penggalangan dana.",
       "Belajar mengawasi, membimbing, mengatur, dan mengarahkan sumber daya manusia.",
@@ -47,16 +47,16 @@ export const portfolios: Portfolio[] = [
     icon: "▣",
     tagline: "",
     overview:
-      "Merencanakan dan mengeksekusikan POLOG Project dan GTD D-Day sesuai dengan visi misi GTD XXIX.",
+      "Merencanakan dan mengeksekusi POLOG Project dan GTD D-Day sesuai dengan visi misi GTD XXIX.",
     responsibilities: [
       {
         text: "Bertanggung jawab atas program kegiatan Project Operations & Logistics dengan:",
         subpoints: [
           "menyusun rincian acara POLOG Project dan GTD D-Day,",
           "mengarahkan divisi dalam perencanaan dan pelaksanaan acara POLOG Project dan GTD D-Day,",
-          "mengatur pendanaan segala kebutuhan Project Operations & Logistics,",
+          "mengatur pendanaan segala kebutuhan Project Operations & Logistics, ",
           "menyiapkan peralatan logistik yang dibutuhkan bersama dengan Sub-Committee, serta",
-          "menyelenggarakan trials dan Senior Camp sesuai dengan yang dibutuhkan.",
+          "menyelenggarakan <i>trials</i> dan <i>Senior Camp</i> sesuai dengan yang dibutuhkan.",
         ],
       },
       "Bertanggung jawab atas inventarisasi, penyimpanan, dan pemakaian seluruh inventaris Project Operations & Logistics.",
@@ -65,8 +65,8 @@ export const portfolios: Portfolio[] = [
       "Bersama dengan anggota komite lainnya membuat GTD XXIX menjadi menyenangkan dan mempunyai dampak positif pada komunitas PINTU, sehingga dapat meningkatkan kebersamaan di kalangan mahasiswa baru pada khususnya, dan seluruh peserta GTD XXIX pada umumnya.",
     ],
     requirements: [
-      "Mengembangkan kemampuan berpikir kritis dan menyelesaikan masalah yang muncul.",
-      "Mengembangkan kemampuan merencanakan dan mengorganisir acara.",
+      "Kemampuan berpikir kritis dan penyelesaian masalah yang muncul.",
+      "Kemampuan merencanakan dan mengorganisir acara.",
       "Kemampuan menyelesaikan masalah penyediaan logistik, termasuk pendataan, pengaturan, dan penyimpanan.",
       "Belajar mengawasi, membimbing, mengatur, dan mengarahkan sumber daya manusia.",
     ],
@@ -78,16 +78,15 @@ export const portfolios: Portfolio[] = [
     icon: "❤",
     tagline: "",
     overview:
-      "Mendukung penuh GTD XXIX melalui peningkatan kesejahteraan peserta dan komite dengan pengadaan konsumsi, First Aid, serta menciptakan lingkungan kelompok orientasi yang nyaman untuk semua anggota kelompok orientasi GTD XXIX melalui aksi kepedulian.",
+      "Mendukung penuh GTD XXIX melalui peningkatan kesejahteraan peserta dan komite dengan pengadaan konsumsi, <i>First Aid</i>, serta menciptakan lingkungan kelompok orientasi yang nyaman untuk semua anggota kelompok orientasi GTD XXIX melalui aksi kepedulian.",
     responsibilities: [
       "Bertanggung jawab untuk memastikan dan meningkatkan kesejahteraan peserta dan komite melalui pengadaan konsumsi, memperhatikan kesehatan mental, dan gejala kelelahan peserta di setiap kegiatan GTD XXIX.",
-      "Bertanggung jawab atas penyediaan First Aid untuk seluruh peserta GTD XXIX.",
-      "Membantu pelatihan First Aid kepada Sub-Committee Welfare GTD XXIX apabila diperlukan.",
-      "Mengikuti dan membantu proses pelatihan Sub-Committee di First Aid Workshop dan kesejahteraan apabila diperlukan.",
+      "Bertanggung jawab atas penyediaan <i>First Aid</i> untuk seluruh peserta GTD XXIX.",
+      "Mengikuti dan membantu proses pelatihan Sub-Committee Welfare GTD XXIX di <i>First Aid Workshop</i> dan <i>Welfare Workshop</i>.",
       "Menyusun perencanaan pendanaan kegiatan Welfare GTD XXIX.",
-      "Merencanakan dan mengeksekusi pelaksanaan acara peningkatan kesejahteraan seluruh komite dan peserta GTD XXIX.",
       "Mengelola sumber daya manusia (Sub-Committee) Welfare GTD XXIX dalam meningkatkan kesejahteraan peserta dan komite di setiap kegiatan GTD XXIX.",
-      "Membantu perencanaan dan pelaksanaan acara Sub-Committee Bonding Day (SCBD).",
+      "Membantu perencanaan dan pelaksanaan acara <i>Sub-Committee Bonding Day</i> (SCBD).",
+      "Merencanakan dan mengeksekusi pelaksanaan acara peningkatan kesejahteraan seluruh komite dan peserta GTD XXIX.",
       "Bertanggung jawab atas inventarisasi, penyimpanan, dan pemakaian seluruh inventaris Welfare.",
       "Bersama dengan anggota komite lainnya membuat GTD XXIX menjadi menyenangkan dan mempunyai dampak positif pada komunitas PINTU, sehingga dapat meningkatkan kebersamaan di kalangan mahasiswa baru pada khususnya, dan seluruh peserta GTD XXIX pada umumnya."
     ],
@@ -137,15 +136,15 @@ export const portfolios: Portfolio[] = [
     icon: "★",
     tagline: "",
     overview:
-      "Menjadi pemimpin kelompok orientasi yang peduli dan bertanggungjawab dengan seluruh anggota kelompok orientasi – terutama mahasiswa baru, serta menciptakan lingkungan kelompok orientasi yang nyaman untuk semua anggota kelompok orientasi sesuai dengan visi misi GTD XXIX.",
+      "Menjadi pemimpin kelompok orientasi yang peduli dan bertanggung jawab dengan seluruh anggota kelompok orientasi– terutama mahasiswa baru, serta menciptakan lingkungan kelompok orientasi yang nyaman untuk semua anggota kelompok orientasi sesuai dengan visi misi GTD XXIX.",
     responsibilities: [
-      "Menentukan pasangan Group Leader (GL).",
+      "Menentukan pasangan <i>Group Leader</i> (GL).",
       "Memastikan kinerja dan keharmonisan antar pasangan GL.",
-      "Bertanggung jawab dalam pembagian kelompok orientasi (mahasiswa baru dan senior).",
+      "Bertanggung jawab dalam pembagian kelompok orientasi (mahasiswa baru dan komite).",
       "Merencanakan dan mengatur pelaksanaan acara yang bertujuan untuk melatih dan mempererat ikatan antar sesama GL.",
       "Menyusun pendanaan yang berkaitan dengan properti kelompok orientasi.",
       "Menyusun pendanaan yang berkaitan dengan portfolio GL GTD XXIX.",
-      "Menjadi Master of Ceremony (MC) dalam rangka acara Day 1 (Night Games) dan Day (Awards Night).",
+      "Menjadi <i>Master of Ceremony</i> (MC) dalam rangka acara <i>Day 1 (Night Games)</i> dan <i>Day 4 (Awards Night)</i>.",
       "Bersama dengan anggota komite lainnya membuat GTD XXIX menjadi menyenangkan dan mempunyai dampak positif pada komunitas PINTU, sehingga dapat meningkatkan kebersamaan di kalangan mahasiswa baru pada khususnya, dan seluruh peserta GTD XXIX pada umumnya."
     ],
     requirements: [

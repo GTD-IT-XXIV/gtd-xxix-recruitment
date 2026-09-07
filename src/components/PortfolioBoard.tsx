@@ -6,6 +6,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import { portfolios, type Portfolio } from "@/data/portfolios";
 import SlideHeader from "./SlideHeader";
 
+function renderRichText(text: string) {
+  return text.split(/(<i>.*?<\/i>)/g).map((part, i) => {
+    const match = part.match(/^<i>(.*)<\/i>$/);
+    return match ? <i key={i}>{match[1]}</i> : part;
+  });
+}
+
 export default function PortfolioBoard() {
   const [selected, setSelected] = useState<Portfolio | null>(null);
   const [mounted, setMounted] = useState(false);
@@ -40,7 +47,6 @@ export default function PortfolioBoard() {
         {portfolios.map((p) => (
           <motion.div
             key={p.id}
-            layoutId={selected ? undefined : `card-${p.id}`}
             style={{ borderRadius: 18 }}
             onClick={() => setSelected(p)}
             className="flex min-h-[230px] cursor-pointer flex-col items-center justify-center gap-4 border border-border bg-gradient-to-br from-surface to-background p-6 text-center transition-colors hover:border-border-hover hover:bg-surface-hover"
@@ -63,9 +69,10 @@ export default function PortfolioBoard() {
         <AnimatePresence>
           {selected && (
           <motion.div
-            layoutId={`card-${selected.id}`}
-            style={{ borderRadius: 0 }}
-            transition={{ type: "spring", stiffness: 250, damping: 30 }}
+            initial={{ opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.96 }}
+            transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
             className="fixed inset-0 z-50 overflow-y-auto bg-surface"
           >
             <button
@@ -96,9 +103,9 @@ export default function PortfolioBoard() {
                 {selected.name}
               </h2>
               <p className="mb-5 border-b border-border pb-3 text-xs font-semibold tracking-[0.2em] text-faint uppercase">
-                    Objektif
+                    Objective
               </p>
-              <p className="mb-12 max-w-2xl text-base font-light leading-relaxed text-muted">
+              <p className="mb-12 max-w-2xl text-base font-light leading-relaxed text-white">
                 {selected.overview}
               </p>
 
@@ -113,13 +120,13 @@ export default function PortfolioBoard() {
                       return (
                         <li key={i} className="relative pl-5 text-sm font-light leading-relaxed text-foreground">
                           <span className="absolute top-2 left-0 h-1.5 w-1.5 rounded-full bg-accent" />
-                          {item.text}
+                          {renderRichText(item.text)}
                           {item.subpoints && (
                             <ul className="mt-2.5 flex flex-col gap-2">
                               {item.subpoints.map((sp, j) => (
-                                <li key={j} className="relative pl-5 text-sm font-light leading-relaxed text-muted">
+                                <li key={j} className="relative pl-5 text-sm font-light leading-relaxed text-white">
                                   <span className="absolute top-2 left-0 h-1 w-1 rounded-full border border-accent/60" />
-                                  {sp}
+                                  {renderRichText(sp)}
                                 </li>
                               ))}
                             </ul>
@@ -131,7 +138,7 @@ export default function PortfolioBoard() {
                 </div>
                 <div>
                   <p className="mb-5 border-b border-border pb-3 text-xs font-semibold tracking-[0.2em] text-faint uppercase">
-                    Hal yang bisa didapatkan
+                    Learning Outcomes
                   </p>
                   <ul className="flex flex-col gap-3.5">
                     {selected.requirements.map((r, i) => (
