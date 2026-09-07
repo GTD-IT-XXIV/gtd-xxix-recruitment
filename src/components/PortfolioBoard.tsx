@@ -100,7 +100,7 @@ export default function PortfolioBoard() {
                     Objective
               </p>
               <p className="mb-12 max-w-2xl text-base font-light leading-relaxed text-white">
-                {selected.overview}
+                {renderRichText(selected.overview)}
               </p>
 
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-[2fr_1fr]">
@@ -138,7 +138,7 @@ export default function PortfolioBoard() {
                     {selected.requirements.map((r, i) => (
                       <li key={i} className="relative pl-5 text-sm font-light leading-relaxed text-foreground">
                         <span className="absolute top-2 left-0 h-1.5 w-1.5 rounded-full bg-accent" />
-                        {r}
+                        {renderRichText(r)}
                       </li>
                     ))}
                   </ul>

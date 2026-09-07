@@ -27,7 +27,7 @@ export const portfolios: Portfolio[] = [
       "Merencanakan skala prioritas keuangan untuk keseluruhan kegiatan GTD XXIX.",
       "Bertanggung jawab atas proyeksi pengalokasian dana untuk setiap kegiatan dan acara portfolio GTD XXIX.",
       "Bertanggung jawab dalam mencari <i>sponsorship</i> yang mencakup menyusun proposal <i>sponsorship</i> dan menjadi narahubung sponsor untuk mendukung pendanaan GTD XXIX.",
-      "Merancang program penggalangan dana yang melibatkan warga PINTU maupun di luar warga PINTU.",
+      "Merancang program penggalangan dana <i>(BFM Project dan EWP)</i> yang melibatkan warga PINTU maupun di luar warga PINTU.",
       "Berkomunikasi dan berkolaborasi dengan pihak eksternal untuk melaksanakan program penggalangan dana <i>(Canvassing)</i> untuk mendukung seluruh acara GTD XXIX.",
       "Membantu perencanaan dan pelaksanaan acara penutupan GTD XXIX <i>(Awards Night)</i>.",
       "Bertanggung jawab atas pengerahan dan pengelolaan sumber daya manusia dalam setiap program penggalangan dan pengelolaan dana GTD XXIX.",
@@ -91,10 +91,11 @@ export const portfolios: Portfolio[] = [
       "Bersama dengan anggota komite lainnya membuat GTD XXIX menjadi menyenangkan dan mempunyai dampak positif pada komunitas PINTU, sehingga dapat meningkatkan kebersamaan di kalangan mahasiswa baru pada khususnya, dan seluruh peserta GTD XXIX pada umumnya."
     ],
     requirements: [
-      "Attentive and observant of others' wellbeing",
-      "Calm and reliable under pressure or emergencies",
-      "Basic first-aid knowledge preferred (training can be provided)",
-      "Good organisation and stock management skills",
+      "Belajar mengatur dan berkoordinasi dengan pihak internal dan eksternal dalam penyediaan konsumsi dalam acara.",
+      "Menambah pengetahuan <i>First Aid</i>.",
+      "Mengembangkan kemampuan pendataan, pengaturan dana, dan inventarisasi.",
+      "Meningkatkan rasa kepedulian terhadap sesama manusia melalui pelayanan.",
+      "Belajar mengawasi, membimbing, mengatur, dan mengarahkan sumber daya manusia.",
     ],
   },
   {
